@@ -1,0 +1,23 @@
+{
+	"name": "end-of-world",
+	"version": "0.0.1",
+	"description": "A simple package to console the text that might go nicely with the end of the world",
+	"main": "./dist/mod.js",
+	"module": "./dist/mod.mjs",
+	"types": "./dist/mod.d.ts",
+	"homepage": "",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hasin023/end-of-world.git"
+	},
+	"scripts": {
+		"build": "tsup"
+	},
+	"keywords": ["NPM", "EOW"],
+	"author": "hasin023",
+	"license": "MIT",
+	"devDependencies": {
+		"tsup": "^8.0.2",
+		"typescript": "^5.4.5"
+	}
+}
