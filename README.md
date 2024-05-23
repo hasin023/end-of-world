@@ -5,7 +5,7 @@ This is a simple package to console the text that might go nicely with the end o
 ## Installation
 
 ```bash
-npm install end-of-world
+npm install endofworld
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ Both CommonJS and ES6 import styles are supported. The package exports a single 
 ### ES6
 
 ```javascript
-import { goodbye } from 'end-of-world';
+import { goodbye } from 'endofworld';
 
 goodbye(); // Goodbye World 🔥
 goodbye('Pansy'); // Goodbye Pansy 🔥
@@ -24,7 +24,7 @@ goodbye('Pansy'); // Goodbye Pansy 🔥
 ### CommonJS
 
 ```javascript
-const { goodbye } = require('end-of-world');
+const { goodbye } = require('endofworld');
 
 goodbye(); // Goodbye World 🔥
 goodbye('Pansy'); // Goodbye Pansy 🔥
